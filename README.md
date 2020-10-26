@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+第三步：选择主题后，可以看到一个博客地址。
 
-You can use the [editor on GitHub](https://github.com/huangkexing1688/huangkexing1688.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+地址格式：https://用户名.github.io/仓库名/
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+当放入自己文件上传后，访问该地址就能看到页面了。默认是访问index.html的，如果你文件叫abc.html，就需要访问：https://用户名.github.io/仓库名/abc.html
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/huangkexing1688/huangkexing1688.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+1 先项目下载到本地：git clone+代码地址
+2 把你的文件都放到项目文件夹中
+3 上传到github即可，访问链接就能看到了
+git add -A
+git commit -m'更新代码'
+git push origin master
